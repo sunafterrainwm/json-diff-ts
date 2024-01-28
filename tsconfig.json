@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
+    "module": "Node16",
     "declaration": true,
     "outDir": "./lib",
     "strict": true,
@@ -13,7 +13,7 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "esModuleInterop": true,
-    "moduleResolution": "Node"
+    "moduleResolution": "Node16"
   },
   "include": ["src", "jest.config.mjs"],
   "exclude": ["node_modules"]
